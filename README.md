@@ -29,8 +29,8 @@ The SFT stage uses `newreasonallsft.py` to perform instruction tuning with multi
 
 To run SFT training:
 ```bash
-python mimicsft.py --cuda_device "4" --model_name "Qwen/Qwen2.5-7B-Instruct" --tasks ner re re_plus --train_epochs 3
-python mimicsft.py --cuda_device "4" --model_name "Qwen/Qwen2.5-7B-Instruct" --tasks end2end --train_epochs 3
+python mimicsft.py --model_name "Qwen/Qwen2.5-7B-Instruct" --tasks ner re re_plus --train_epochs 3 --cuda_device 4
+python mimicsft.py --model_name "Qwen/Qwen2.5-7B-Instruct" --tasks end2end --train_epochs 3 --cuda_device 4
 ```
 
 ### Stage 2: R^2GRPO
