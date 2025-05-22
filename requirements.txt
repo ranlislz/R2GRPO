@@ -1,0 +1,13 @@
+bitsandbytes==0.45.3
+datasets==3.4.0
+numpy==2.2.6
+packaging==25.0
+pandas==2.2.3
+scikit_learn==1.6.1
+torch==2.5.1
+transformers==4.49.0
+trl==0.15.2
+unsloth==2025.3.14
+unsloth_zoo==2025.3.12
+vllm==0.7.2
+wandb==0.19.11
